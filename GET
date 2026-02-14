@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QEDUCATO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Screenshot_19-6-2025_212550_127.0.0.1.jpeg" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .parent{
+           background: linear-gradient(48deg,#ff7350 35%, rgba(18,88,117,0.85) 10%);
+            height: 100px;
+           position: relative;
+            
+        }
+       
+        #ab1{
+     position: absolute;
+       margin-top: 35px;
+        margin-left: 80px;
+        display: flex;
+        
+        }
+        #p1{
+          margin-bottom: 10px;
+          color: #fff;
+font-family: Roboto, sans-serif;
+font-size: 17px;
+margin-top: 5px;
+            
+        }
+        .parent2{
+            background-color: white;
+            height: 120px;
+      
+           
+        }
+        .parent3{
+            background: url(slider_bg_01.png);
+            height: 856px;
+            position: relative;
+        }
+        #img{
+            margin-top: 30px;
+            width: 350px;
+            margin-left: 100px;
+
+        }
+        #link{
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #162542;
+    text-decoration: none;
+    font-size: 17px;
+  margin: 20px;
+        }
+        .links{
+            margin-left: 550px;
+            margin-top: -30px;
+        }
+        #li2{
+            text-decoration: none;
+            margin-left: 80px;
+            background-color: #ff7350;
+            padding: 38px;
+         
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+           color:whitesmoke ;
+          }
+          #txts{
+            margin-top: 60px;
+            position: absolute;
+            margin-left: 100px;
+          }
+          #txt1{
+            color: #fff;
+    font-size: 22px;
+        font-family: 'Jost', sans-serif;
+          }
+          #txt2{
+                font-family: 'Jost', sans-serif;
+                font-size: 60px;
+                line-height: 80px;
+                color: #fff;
+          }
+          #txt6{
+            margin-top: -100px;
+          }
+          p{
+            font-size: 18px;
+            color: #fff;
+            font-family: Roboto, sans-serif;
+            line-height: 26px;
+          }
+      #btns{
+        margin-top: 30px;
+      }
+      .btn1{
+        width: 190px;
+        height: 60px;
+        background-color: #ff7350;
+       font-family: Roboto, sans-serif;
+       font-size: 16px;
+       color: #fff;
+       border: 1px  solid #ff7350;
+       margin: 15px;
+       border-radius: 5px;
+      }
+      .btn2{
+         width: 190px;
+        height: 60px;
+        font-family: Roboto, sans-serif;
+       font-size: 16px;
+       color: #fff;
+       background: transparent;
+       border: 1px solid #fff;
+       border-radius: 5px;
+      }
+      #pa1{
+    background-color: rgba(18, 88, 117, 0.85);
+width: 380px;
+height: 242px;
+margin-right: 45px;
+display: flex;
+      }
+      #pa2{
+      background-color: #ff7350;
+        width: 380px;
+height: 242px;
+margin-right: 45px;
+display: flex;
+      }
+#pa3{
+           background-color: rgba(18, 88, 117, 0.85);
+        width: 380px;
+height: 242px;
+display: flex;
+
+      }
+.divs{
+    display: flex;
+   margin-left: 35px;
+   margin-top: 60px;
+    
+}
+#li{
+    margin-left: 10px;
+ 
+}
+#las{
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+}
+#yu2{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+#im1{
+    margin-left: 20px;
+    margin-top: 38px;
+}
+#sa{
+    font-size: 16px;
+     font-family: Roboto, sans-serif;
+     margin-top:20px;
+}
+#las2{
+    color: #fff;
+     font-family: 'Jost', sans-serif;
+     text-decoration: none;
+}
+#vs{
+    text-decoration: none;
+}
+#abs{
+    display: flex;
+    margin-left: 900px;
+position: relative;
+top: 10px;
+}
+#po{
+     font-size: 13px;
+     font-family: Roboto, sans-serif;
+}
+#phone{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: #fff;
+     font-size: 16px;
+}
+#asx{
+    margin-left: 10px;
+}
+#asa{
+    margin-left: 1200px;
+    display: flex;
+    margin-top: -59px;
+}
+#ims{
+    margin-top: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div id="ab1">
+        <p1 id="p1">Follow us :-</p1>
+        <a href="try.html"><i class="fab fa-facebook-f" id="insta"></i></a>
+       <a href="try.html"> <i class="fab fa-instagram"id="insta"></i></a>
+       <a href="try.html"> <i class="fab fa-twitter"id="insta"></i></a>
+         <a href="try.html"><i class="fab fa-youtube"id="insta"></i></a>
+           </div>
+           <div id="abs">
+            <img src="phone-call.png" width="30px" height="60px" id="ims">
+            <div id="asx">
+        <p id="po">Call Now!</p>
+        <a href="try.html" id="phone">+91 70532838383</a>
+            </div>
+           </div>
+           <div id="asa">
+            <img src="mailing.png" width="30px" height="60px" id="ims" >
+            <div id="asx">
+           <p id="po">Email Now!</p>
+           <a href="try.html" id="phone">Abc@gmail.com</a>
+            </div>
+           </div>
+    </div>
+    <div class="parent2">
+<img src="logo.png" id="img">
+<div class="links">
+<a href="follow.html" id="link">Home</a>
+<a href="follow.html" id="link">About Us</a>
+<a href="follow.html" id="link">Courses</a>
+<a href="follow.html" id="link">Pages</a>
+<a href="follow.html" id="link">Blog</a>
+<a href="follow.html" id="link">Contact</a>
+<a href="follow.html" id="vs">&#128269;</a>
+<a href="follow.html" id="li2">ADMISSION OPEN</a>
+</div>
+
+    </div>
+    <div class="parent3">
+       <div id="txts">
+        <h5 id="txt1">WECOME TO QEDUCATO</h5>
+        <h2 id="txt2">Education is the best<br> key success in life</h2>
+        <p>Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex,<br>dapibus purus sapien, cursus sed nisl tristique ,commodo gravida lectus non.</p>
+        <div id="btns">
+        <button class="btn1">Discover More  &#10141;</button>
+        <button class="btn2">Contact Us  &#10141;</button>
+           </div>
+            <div class="divs">
+        <div id="pa1">
+            <div id="yu1">
+          <img src="bh-icon4.png" width="60px" id="im1">
+            </div>
+            <div id="yu2">
+                <a href="try.html" id="las">Education Services</a>
+                <p id="sa">Seamlessly visualize quality ellectual capital without superior collaboration and idea sharing listically</p>
+                <a href="try" id="las2">Read More &#10141;</a>
+            </div>
+        </div>
+        <div id="pa2">
+            <div id="yu1">
+        <img src="sve-icon5.png" width="60px" id="im1">
+            </div>
+            <div id="yu2">
+          <a href="try.html" id="las">International Hubs</a>
+           <p id="sa">Seamlessly visualize quality ellectual capital without superior collaboration and idea sharing listically</p>
+                <a href="try" id="las2">Read More &#10141;</a>
+            </div>
+        </div>
+        <div id="pa3">
+            <div id="yu1">
+                <img src="sve-icon6.png" width="60px" id="im1">
+            </div>
+            <div id="yu2">
+                <a href="try.html" id="las">Bachelor's and Master's</a>
+                <p id="sa">Seamlessly visualize quality ellectual capital without superior collaboration and idea sharing listically</p>
+                <a href="try" id="las2">Read More &#10141;</a>
+            </div>
+        </div>
+      </div>
+      </div>
+     
+         </div>
+         <div id="section">
+            
+           <div id="img">
+          
+            <img src="about_img_02.png" id="imh">
+           </div>
+           <div id="tes">
+        <h5 id="heading"> <i class="fas fa-graduation-cap"></i>About Our University</h5>
+        <h2 id="htr">A Few Words About the University</h2>
+        <p id="pu1">Our community is being called to reimagine the future. As the only university<br> where a renowned design school comes together with premier colleges, we<br> are making learning more relevant and transformational.</p>
+         <p id="pu2">We are proud to offer top ranige in employment services such and asser payroll and benefits<br> administrato managemen and asistance with global business range ployment employer <br>readings from religious texts or literature are also commonly inc compliance.</p>
+         <div id="des">
+            <div id="se">
+              <h3 id="fr">Doctoral Degrees</h3>
+              <p id="ae">consectetur adipiscing elit sed do eiusmod tem incid idunt.</p>
+            </div>
+            <div id="se">
+<h3 id="fr">Global Students</h3>
+<p id="ae">consectetur adipiscing elit sed do eiusmod tem incid idunt.</p>
+            </div>
+         </div>
+         <a href="try.html" id="fw">Read More &#10141;</a>
+           </div>
+         </div>
+         <div id="section3">
+            <div id="blo">
+          <h2 id="cv">Our Best Features</h2>
+          <p id="cv2">Special wedding garments are often worn, and the ceremony is  sttimes<br> followed by a wedding reception. Music, poetry.</p>
+          <div id="logo">
+           <i class="fas fa-users"  id="falco"></i>
+            <div id="boe1">
+          <h3 id="xty">Skilled Teachers</h3>
+          <p id="xty2">Special wedding garments are often worn, and the ceremony is sttimes <br>followed by a wedding reception. Music, poetry, prayers, or readings from.</p>
+            </div>
+          </div>
+          <div id="logo">  
+             <i class="fas fa-hand-holding-usd" id="falco"> </i>
+            <div id="boe1">
+          <h3 id="xty">Affordable Courses</h3>
+          <p id="xty2">Special wedding garments are often worn, and the ceremony is sttimes<br> followed by a wedding reception. Music, poetry, prayers, or readings from.</p>
+            </div>
+          </div>
+          <div id="logo">
+          <i class="fas fa-atom" id="falco"></i>
+            <div id="boe1">
+          <h3 id="xty">Efficient & Flexible</h3>
+          <p id="xty2">Special wedding garments are often worn, and the ceremony is sttimes<br> followed by a wedding reception. Music, poetry, prayers, or readings from.</p>
+            </div>
+          </div>
+          </div>
+          
+            <div id="imsd">
+                <img src="steps-img.png" width="750px" height="720px">
+            </div>
+         
+         </div>
+         <div id="section20">
+          <div id="lodre">
+            <h5 id="fdsa13"><i class="fas fa-graduation-cap"></i>Our Events</h5>
+            <h2 id="fedsa">Upcoming Events</h2>
+          </div>
+          <div id="and">
+          <div id="ko">
+              <img src="mu1.jpg" width="420px" height="320px" id="ggg">
+              <div id="gg1">
+                <a href="try.html" id="foc2" class="foc4">Basic UI &amp; UX Design for new development.</a>
+                <p id="foco1">Seamlessly visualize quality ellectual capital without superior collaboration and idea tically</p>
+              </div>
+             <div id="time">"20 March, 2023"  &#10141;<strong>12/A, NewYork Sydney City</strong> </div>
+            </div>
+            <div id="ko">
+              <img src="mu2.jpg" width="435px" height="320px" id="ggg">
+              <div id="gg1">
+                <a href="try.html" id="foc2" class="foc4">Digital Education Market Briefing: Minnesota 2023.</a>
+                <p id="foco1"> Seamlessly visualize quality ellectual capital without superior collaboration and idea tically</p>
+              </div>
+              <div id="time">"22 March, 2023"  &#10141;<strong>Portage Ave.Winnipeg, Canada</strong> </div>
+            
+            </div>
+            <div id="ko">
+              <img src="mu3.jpg" width="420px" height="320px" id="ggg">
+              <div id="gg1">
+                <a href="try.html" id="foc2" class="foc4">Learning Network Webinars for Music Teachers.</a>
+                <p id="foco1">Seamlessly visualize quality ellectual capital without superior collaboration and idea tically</p>
+              </div>
+               <div id="time">"24 March, 2023"  &#10141;<strong>NewYork Sydney City</strong> </div>
+            </div>
+            </div>
+            <div id="and2">
+             <div id="ko">
+              <img src="mu4.jpg" width="435px" height="320px" id="ggg">
+              <div id="gg1"  class="foc4">
+                <a href="try.html" id="foc2" class="foc4">Next-Gen Higher Education Students Have Arrived?</a>
+                <p id="foco1">Seamlessly visualize quality ellectual capital without superior collaboration and idea tically</p>
+              </div>
+               <div id="time">"26 March, 2023"  &#10141;<strong>Portage Ave.Winnipeg, Canada</strong></div>
+            </div>
+            <div id="ko">
+              <img src="mu5.jpg" width="420px" height="320px" id="ggg">
+              <div id="gg1">
+                <a href="try.html" id="foc2">Digital Art &amp; 3D Model – a future for film company</a>
+                <p id="foco1">Seamlessly visualize quality ellectual capital without superior collaboration and idea tically</p>
+              </div>
+             <div id="time">"28 March, 2023"  &#10141;<strong>NewYork Sydney City</strong></div>
+            </div>
+            <div id="ko">
+              <img src="mu6.jpg" width="420px" height="320px" id="ggg">
+              <div id="gg1">
+                <a href="try.html" id="foc2">Conscious Discipline Summer Institute</a>
+                <p id="foco1">Seamlessly visualize quality ellectual capital without superior collaboration and idea tically</p>
+              </div>
+             <div id="time">"30 March, 2023"  &#10141;<strong>12/A, NewYork Sydney City</strong></div>
+            </div>
+             </div>
+         </div>
+         <div id="section6">
+            <div class="gdh">
+                <h2 id="ppp"> Scholarship Programs </h2>
+                <p id="ui">At Estuidar University, we prepare you to launch your career by providing a supportive, creative, and<br> professional environment from which to learn practical skills and build a network of industry contacts.</p>
+            </div>
+            <a href="try.html" id="byt">Financial Aid &#10141;</a>
+         </div>
+         <!-- <div id="section25">
+          <div id="assqwa">
+          <h2 id="douy1">Get every single answer here.</h2>
+          <p id>A business or organization established to provide a particular service, typically one that involves a organizing transactions.</p>
+          </div>
+          <div id="swea">
+
+          </div>
+         </div> -->
+         <div id="section7">
+          <div id="jus">
+            <h2 id="op">We're
+              <span>Qeducato</span>
+              <br>
+              & We're Different
+            </h2>
+            <p id="op1">Our community is being called to reimagine the future. As the only university<br> where a renowned design school colleges</p>
+          </div>
+          <a href="https://youtu.be/bc8mWS9TraM" id="sd"><img src="play-button.png"></a>
+         </div>
+         <div id="section9">
+          <section>
+           <div id="xcv">
+          <h2 id="rfg">Search For Courses</h2>
+          <p id="rfg2">Our community is being called to reimagine the future. As the only university where a renowned design<br> school comes together with premier colleges, we are making learning more relevant and transformational.</p>
+           </div>
+           <div id="xcvv">
+            <div id="inpur">
+              <input type="text" id="name1" required
+              placeholder ="Your Name"  >
+              <br>
+               <select required id="name"> 
+                <option id="name" value="Instructor">Instructor</option >
+                  <option id="name" value="Albert Coman(Phd)">Albert Coman(Phd)</option >
+                    <option id="name" value="Angelina Jones(Phd)">Angelina Jones(Phd)</option >
+                      <option id="name" value="Bruce Wills(Phd)">Bruce Wills(Phd)</option >
+               </select>
+               <br>
+               <select required id="name"> 
+                <option id="name" value="Campus">Campus</option >
+                  <option id="name" value="Adman's Hall">Adman's Hall</option >
+                    <option id="name" value="Qeducato 80">Qeducato 80</option >
+               </select>
+            </div>
+            <div id="inpu">
+             <input type="email" id="name1" required
+             placeholder="Your Email">
+             <br>
+             <select required id="name"> 
+                <option id="name" value="Department">Department</option >
+                  <option id="name" value="Business Adminstration"> Business Adminstration</option >
+               </select>
+               <br>
+               <select required id="name"> 
+                <option id="name" value="Department">Level</option >
+                  <option id="name" value="Business Adminstration">Graduate</option >
+                      <option id="name" value="Business Adminstration">Undergraduate</option >
+               </select>
+            </div>
+           </div>
+           <button id="bvc">Search Courses Here  &#10141;</button>
+           </section>
+         </div>
+         <div id="section10">
+          <img src="aaauyw.png" width="600px" height="500px" id="xcb">
+          <div id="kui">
+            <h2 id="fh1">Admission & Aid</h2>
+            <p id="fh2">Our community is being called to reimagine the future. As the only university<br> where a renowned design school comes together with premier colleges, we <br>are making learning more relevant and transformational.</p>
+            <button id="pi">Read More  &#10141;</button>
+          </div>
+         </div>
+         <div id="section15">
+          <div id="lok1">
+            <h5 id="kde2">
+               <i class="fas fa-graduation-cap"></i>Our Blog</h5>
+            <h2 id="kde1">Latest Blog & News</h2>
+          </div>
+          <div id="lok2">
+            <div id="kok">
+              <img src="lok1.jpg" width="420px" id="gg">
+              <div id="gg1">
+                <ul id="no">
+                  <li id="no1"><i class="fas fa-user"id="iuys"></i>By admin</li>
+                  <li id="no1"><i class="fas fa-comment"id="iuys"></i>No Comments</li>
+                </ul>
+                <a href="try.html" id="foc2">Cras accumsan nulla nec lacus<br> ultricies placerat.</a>
+                <p id="foco1">Lorem ipsum dolor sit amet, consectetur adipisicing<br> elit, sed do eiusmod tempor incididunt ut labore et <br>dolore magna ali</p>
+              </div>
+              <a href="try.html" id="uhe">Read More  &#10141;</a>
+            </div>
+            <div id="kok">
+              <img src="lok2.jpg" width="420px" id="gg">
+              <div id="gg1">
+                <ul id="no">
+                  <li id="no1"><i class="fas fa-user" id="iuys"></i>By admin</li>
+                  <li id="no1"><i class="fas fa-comment"id="iuys"></i>No Comments</li>
+                </ul>
+                <a href="try.html" id="foc2">Dras accumsan nulla nec lacus<br> ultricies placerat.</a>
+                <p id="foco1">Lorem ipsum dolor sit amet, consectetur adipisicing<br> elit, sed do eiusmod tempor incididunt ut labore et <br>dolore magna ali</p>
+              </div>
+              <a href="try.html" id="uhe">Read More  &#10141;</a>
+            </div>
+            <div id="kok">
+              <img src="lok3.jpg" width="420px" id="gg">
+              <div id="gg1">
+                <ul id="no">
+                  <li id="no1"><i class="fas fa-user"id="iuys"></i>By admin</li>
+                  <li id="no1"><i class="fas fa-comment"id="iuys"></i>No Comments</li>
+                </ul>
+                <a href="try.html" id="foc2">Seas accumsan nulla nec lacus<br> ultricies placerat.</a>
+                <p id="foco1">Lorem ipsum dolor sit amet, consectetur adipisicing<br> elit, sed do eiusmod tempor incididunt ut labore et <br>dolore magna ali</p>
+              </div>
+              <a href="try.html" id="uhe">Read More  &#10141;</a>
+            </div>
+          </div>
+         </div>
+         <div id="section11">
+          <div id="fdek">
+            <img src="send-mail.png" id="mailq">
+            <h2 id="dgn">Subscribe for Newsletter</h2>
+            <p id="dgn1">Manage Your Business With Our Software</p>
+          </div>
+          <div id="foi">
+            <input type="email" required  placeholder ="Email Address " id="dfs">
+            <button id="dfgsl">Subscribe Now</button>
+          </div>
+         </div>
+         <div id="section13">
+          <div id="dei1">
+            <h2 id="ssd1">About Us</h2>
+            <p id="llm2">Suspendisse non sem ante. Cras pretium gravida leo a<br> convallis. Nam malesuada interdum metus, sit amet dictum <br>ante congue eu. Maecenas ut maximus enim.</p>
+            <div id="social">
+             <a href="https://www.instagram.com/_mudeer_8?igsh=anAxNnB0M2U0b216&utm_source=qr"><i class="fab fa-facebook-f" id="insta1"></i></a> 
+        <a href="https://www.instagram.com/_mudeer_8?igsh=anAxNnB0M2U0b216&utm_source=qr"> <i class="fab fa-instagram"id="insta1"></i></a>
+         <a href="https://www.instagram.com/_mudeer_8?igsh=anAxNnB0M2U0b216&utm_source=qr"><i class="fab fa-twitter"id="insta1"></i></a>
+            </div>
+          </div>
+          <div id="dei2">
+            <h2 id="ssd1"> Our Links</h2>
+            <ul id="ool">
+             <li> <a href="try.html" id="sde">Home</a></li>
+            
+              <li> <a href="try.html" id="sde">About Us</a></li>
+             
+               <li> <a href="try.html" id="sde">Courses</a></li>
+                
+                 <li><a href="try.html" id="sde">Blog</a></li>
+                 
+                 <li><a href="try.html" id="sde">Contact</a></li> 
+            </ul>
+          </div>
+          <div id="dei3">
+            <h2 id="ssd1">Latest Post</h2>
+            <div id="inn">
+            <img src="bot1.png">
+            <a href="try.html" id="sde1">Nothing impossble to need<br> hardwork</a>
+            </div>
+            <span id="ohd">7 March, 2023</span>
+            <div id="inn2">
+              <img src="bot2.png">
+              <a href="try.html" id="sde1">Nothing impossble to need<br> hardwork</a>
+              </div>
+                <span id="ohd2">7 March, 2023</span>
+
+          </div>
+          <div id="dei4">
+            <h2 id="ssd1">Contact Us</h2>
+<div id="aaa23">
+  <div id="sed">
+    <i class  ="fas fa-phone" id="calls1"></i>
+    <div id="sad">
+      <a href="try.html" id="igi1">+1 (444) 000-8888</a>
+      <br>
+
+
+
+   <a href="try.html"id="igi1">+91 7052 101 786</a>
+    </div>
+  </div>
+  <div id="sed">
+    <i class="fas fa-envelope" id="calls1"></i>
+    <div id="sad">
+      <a href="try.html"id="igi1">info@example.com</a>
+      <a href="try.html" id="igi1">help@example.com</a>
+    </div>
+  </div>
+  <div id="sed">
+    <i class="fas fa-map-marker-alt" id="calls1"></i>
+    <span id="igi1" >1247/Plot No. 39, 15th Phase,<br> LHB Colony, Kanpur</span>
+  </div>
+</div>
+          </div>
+         </div>
+         <div id="section12">
+          <img src="f_logo.png" height="30px" id="ll1">
+          <div id="lol"> Copyright © Qeducato 2024 . All rights reserved. </div>
+         </div>
+</body>
+</html>
